@@ -1,0 +1,10 @@
+zipper.php is a php program that creates zip archives. 
+
+It requires that the ZipArchive class be available: 
+http://www.php.net/manual/en/class.ziparchive.php
+
+...you'll get a hang or error if it does not.  
+
+The program also hard codes the input files and output zip PATH. 
+
+You need to edit those lines or create /tmp/one.txt, /tmp/two.txt, /tmp/three.txt and then look for /tmp/onetwothree.zip
